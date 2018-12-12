@@ -1,4 +1,5 @@
-# node-js-docker(v.2)
+# node-js-docker(v.3)  
+note: was added CPU-overload protection
 # Get started
 1. create folder
 2. open cmd in this folder (this will be the root of our project)
