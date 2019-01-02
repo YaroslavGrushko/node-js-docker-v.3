@@ -8,7 +8,7 @@
         }
     },
     "my-mongo": {
-        "mongo-url": "mongodb://my-mongodb",
+        "mongo-url": "mongodb://localhost:27017",
         "dbName": "webcams"
     },
     "log": {
@@ -24,6 +24,6 @@
         }
 
     },
-    "maxCpuUsage": 15,
-    "timeToSleep":5000
+    "maxCpuUsage": 0.3,
+    "timeToSleep": 200000
 }

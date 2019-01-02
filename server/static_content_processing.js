@@ -27,10 +27,7 @@ function StaticContent(current_request, current_response) {
             log.info('get Data from Db/getPlaces module in async mode');
             var getPlaces = require("./Db/getPlaces");
             // getPLACES().then((data) => {
-            //     console.log("sending data to front");
-            //     current_response.json(data);
-            // });
-            var data = await getPlaces();
+            data = await getPlaces();
             current_response.json(data);
         } else {
             // let's return customers
